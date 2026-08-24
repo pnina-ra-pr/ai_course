@@ -1,0 +1,16 @@
+[project]
+name = "notebooklm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "firecrawl-py>=4.31.0",
+    "langchain>=1.2.18",
+    "langchain-google-genai>=4.2.2",
+    "langchain-tavily>=0.2.18",
+    "langgraph>=1.1.10",
+    "netfree-unstrict-ssl>=0.1.2",
+    "streamlit>=1.57.0",
+]
